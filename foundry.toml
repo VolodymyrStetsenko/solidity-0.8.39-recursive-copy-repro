@@ -1,0 +1,10 @@
+[profile.default]
+src = "test"
+test = "test"
+out = "out"
+cache_path = "cache"
+libs = []
+evm_version = "osaka"
+gas_limit = "18446744073709551615"
+# Do not set optimizer_runs here: in Foundry 1.7.1 doing so enables the optimizer.
+# run.sh selects the optimizer and the pipeline per build on the command line.
